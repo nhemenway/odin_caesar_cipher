@@ -24,13 +24,14 @@ def caesar_cipher phrase, shift
 
 end
 
-# caesar_cipher("What a string!", 5)
+print caesar_cipher("What a string!", 5)
+print caesar_cipher("AeiOuP", 3)
 
-puts "What would you like to encode?"
-phrase = gets.chomp
+# puts "What would you like to encode?"
+# phrase = gets.chomp
 
-puts "Select an offset between 1 and 25"
-shift = gets.chomp.to_i
+# puts "Select an offset between 1 and 25"
+# shift = gets.chomp.to_i
 
-puts "You're encoded message:"
-puts caesar_cipher(phrase, shift)
+# puts "You're encoded message:"
+# puts caesar_cipher(phrase, shift)
